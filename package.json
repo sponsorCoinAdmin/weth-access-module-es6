@@ -1,0 +1,19 @@
+{
+  "name": "@sponsorcoin/weth-access-module-es6",
+  "version": "1.0.0",
+  "description": "Wrap and Unwrap Eth ES6 Version",
+  "main": "wethMethods.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sponsorCoinAdmin/weth-access-module-es6.git"
+  },
+  "author": "Robert Lanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sponsorCoinAdmin/weth-access-module-es6/issues"
+  },
+  "homepage": "https://github.com/sponsorCoinAdmin/weth-access-module-es6#readme"
+}
