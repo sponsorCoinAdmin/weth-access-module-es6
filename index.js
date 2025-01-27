@@ -1,10 +1,10 @@
-import { ethers } from 'ethers';
 import { weth9ABI } from './weth9ABI.js';
 
 const ETHEREUM = 1;
 const POLYGON = 137;
 const HARDHAT = 31337;
 const BURN_ADDRESS = "0x0000000000000000000000000000000000000000";
+const ethers = hre.ethers;
 
 class WethMethods {
 
