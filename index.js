@@ -157,6 +157,7 @@ class WethMethods {
 
 export {
   WethMethods,
+  weth9ABI,
   ETHEREUM,
   POLYGON,
   HARDHAT,

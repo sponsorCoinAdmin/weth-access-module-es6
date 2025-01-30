@@ -1,6 +1,6 @@
 {
   "name": "@sponsorcoin/weth-access-module-es6",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Wrap and Unwrap Eth ES6 Version",
   "type": "module",
   "scripts": {
