@@ -1,6 +1,6 @@
 {
   "name": "@sponsorcoin/weth-access-module-es6",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wrap and Unwrap Eth ES6 Version",
   "type": "module",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sponsorCoinAdmin/weth-access-module-es6/issues"
   },
-  "homepage": "https://github.com/sponsorCoinAdmin/weth-access-module-es6#readme"
+  "homepage": "https://github.com/sponsorCoinAdmin/weth-access-module-es6#readme",
+  "dependencies": {
+    "ethers": "^6.13.5"
+  }
 }
