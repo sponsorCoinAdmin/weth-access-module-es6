@@ -40,10 +40,15 @@ class WethMethods {
   getDeployedWeth9ABI = () => weth9ABI;
 
   getWeth9NetworkAddress = (chainId) => {
+    const ETH_WETH = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
+    const POLYGON_WETH = "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+    const HARDHAT_WETH = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+    const SEPOLIA_WETH = "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
     switch (chainId) {
-      case ETHEREUM: return "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
-      case POLYGON: return "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619";
-      case HARDHAT: return "0x5147c5C1Cb5b5D3f56186C37a4bcFBb3Cd0bD5A7";
+      case ETHEREUM: return ETH_WETH;
+      case POLYGON: return POLYGON_WETH;
+      case HARDHAT: return HARDHAT_WETH;
+      case SEPOLIA: return SEPOLIA_WETH;
       default: return BURN_ADDRESS;
     }
   };
