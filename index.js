@@ -151,11 +151,14 @@ class WethMethods {
 
   ethBalance = async (_address) => {
     const ethBalance = await this.provider.getBalance(_address);
+    console.log(`Returning ethBalance:(${ethBalance})`)
     return ethBalance;
   };
 
   wethBalance = async (_address) => {
+    console.log(`EXECUTING: wethBalance@Address(${_address})`)
     const wethBalance = await this.signedWeth.balanceOf(_address);
+    console.log(`Address(${_address}) wethBalance:(${wethBalance})`)
     return wethBalance;
   }
 }
